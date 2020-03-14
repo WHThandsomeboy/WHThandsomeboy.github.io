@@ -453,7 +453,7 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="一次偶然的遇见"><a href="#一次偶然的遇见" class="headerlink" title="一次偶然的遇见"></a>一次偶然的遇见</h3><p>&nbsp;&nbsp;其实很早之前我就想写个个人博客,但是我这个人比较懒，所以很久的想法一直没有手动实现。转折点是前几天，我独自在某小网站上看视频，偶然间进入了现就职于B站的前端大佬的blog，因为那些视频播放器就是他写的。哇，他的blog真的有点东西的，很是羡慕，所以心中的那团小火又燃了起来，接下来就是一整天，注意是一整天的尖酸历程，太惨了我…顺便po一下这位大佬的blog一角：<br><img src="/images/2.png" alt=""></p>
+                <h3 id="一次偶然的遇见"><a href="#一次偶然的遇见" class="headerlink" title="一次偶然的遇见"></a>一次偶然的遇见</h3><p>&nbsp;&nbsp;其实很早之前我就想写个个人博客,但是我这个人比较懒，所以很久的想法一直没有手动实现。转折点是前几天，我独自在某小网站上看视频，偶然间进入了现就职于B站的前端大佬的blog，因为那些视频播放器就是他写的。哇，他的blog真的有点东西的，很是羡慕，所以心中的那团小火又燃了起来，接下来就是一整天，注意是一整天的尖酸历程，太惨了我…顺便po一下这位大佬的blog一角：<br><img src="http://47.99.106.190:8080/images/2.png" alt=""></p>
 <h3 id="进入正题"><a href="#进入正题" class="headerlink" title="进入正题"></a>进入正题</h3><p>&nbsp;&nbsp;奈何鄙人没文化，做不了这位大佬这样的效果，想着直接用git clone下这位大佬的代码，说着就行动起来了，emmm，github那速度你们懂的，我等了大概半小时，进度还是52%，然后我在他的github留言板上看见了别人的评论，说这这个主题好久没维护，已经不好用了，woc，心态瞬间爆炸，半个多小时直接白给。然后我就只能自己从了开始操作了，关于git方面的知识我就不说了，都很简单，也没什么坑，接下来就说说怎么使用Hexo写个人博客。</p>
 <h3 id="Hexo是什么？"><a href="#Hexo是什么？" class="headerlink" title="Hexo是什么？"></a>Hexo是什么？</h3><p><a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。所以这是你构建个人博客一个特别好的工具！</p>
 <h3 id="下载安装Hexo："><a href="#下载安装Hexo：" class="headerlink" title="下载安装Hexo："></a>下载安装Hexo：</h3><p>首先你要做好准备掌握以下几项东西：</p>
@@ -461,7 +461,7 @@
 <li>git</li>
 <li>nodejs</li>
 </ul>
-<p><strong>安装Node和Git</strong><br>要按照下面的顺序一步步安装，每安装完一项，可以在cmd工具中通过查看对应版本的方式检测是否安装成功：name –version，例如：node –version；只要显示出了版本号就代表已经安装成功。<br>1.安装node.js。Node.js中文官网下载到桌面按默认路径安装即可；<br>2.安装git。Git官网或者百度软件中心下载到桌面按默认路径安装即可。<br>安装正确的话，在桌面或文件夹空白处鼠标右键菜单会新增“Git GUI Here”和“Git Bash Here”两个选项。如下：<img src="/images/3.jpg" alt=""><br>3.选装cnpm。淘宝cnpm官网。由于npm国内下载速度经常抽风，所以建议安装淘宝的这个镜像；使用方法就是在命令中把npm换成cnpm即可。<br>安装方法：在cmd工具中输入如下命令<br><code>npm install -g cnpm --registry=https://registry.npm.taobao.org</code><br><strong>安装Hexo和插件</strong><br>全局安装Hexo<br>在桌面空白处单击右键，打开git bash，输入<code>cnpm install hexo-cli -g</code>；安装完成后输入<code>hexo -v</code>，出现版本信息则表示安装成功。<br>在项目中安装Hexo<br>在桌面打开git bash，输入<code>mkdir hexoBlob</code>（在桌面新建了一个名为hexoBlog的文件夹），然后输入<code>cd hexoBlog</code>（进入到这个文件夹里），再依次执行如下操作：</p>
+<p><strong>安装Node和Git</strong><br>要按照下面的顺序一步步安装，每安装完一项，可以在cmd工具中通过查看对应版本的方式检测是否安装成功：name –version，例如：node –version；只要显示出了版本号就代表已经安装成功。<br>1.安装node.js。Node.js中文官网下载到桌面按默认路径安装即可；<br>2.安装git。Git官网或者百度软件中心下载到桌面按默认路径安装即可。<br>安装正确的话，在桌面或文件夹空白处鼠标右键菜单会新增“Git GUI Here”和“Git Bash Here”两个选项。如下：<img src="http://47.99.106.190:8080/images/3.jpg" alt=""><br>3.选装cnpm。淘宝cnpm官网。由于npm国内下载速度经常抽风，所以建议安装淘宝的这个镜像；使用方法就是在命令中把npm换成cnpm即可。<br>安装方法：在cmd工具中输入如下命令<br><code>npm install -g cnpm --registry=https://registry.npm.taobao.org</code><br><strong>安装Hexo和插件</strong><br>全局安装Hexo<br>在桌面空白处单击右键，打开git bash，输入<code>cnpm install hexo-cli -g</code>；安装完成后输入<code>hexo -v</code>，出现版本信息则表示安装成功。<br>在项目中安装Hexo<br>在桌面打开git bash，输入<code>mkdir hexoBlob</code>（在桌面新建了一个名为hexoBlog的文件夹），然后输入<code>cd hexoBlog</code>（进入到这个文件夹里），再依次执行如下操作：</p>
 <pre><code>    cnpm install hexo --save    #在当前项目中安装hexo；
     hexo init       #初始化hexo；
     cnpm install        #安装依赖包；</code></pre><p>安装hexo的插件</p>
@@ -476,7 +476,7 @@
 <pre><code>hexo clean    #会清除缓存文件db.json及之前生成的静态文件夹public；
 hexo g     #会重新生成静态文件夹public；
 hexo deploy    #因为之前已经安装了插件并且在博客配置文件中也配置好了，所以这个命令会在博客根目录下生成一个.deploy_git的文件夹，并 把本地生成的静态文件部署到LiLei.github.io这个仓库中的master分支上；简写形式为hexo d；</code></pre><p>3.在浏览器中访问博客<br>至此，你应该可以在浏览器中输入你自己的仓库名的网址，就可以发现你的博客被上传到Github上了</p>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>其实搭建个人博客的第一步已经完成了，接下来就是配置Hexo，还有换主题，自己写配置啥的，这里就麻烦的一批了，也是我花最多时间的地方，还报错不断，所幸最后都一一解决了，如果有想用Hexo搭建blog的小伙伴，一定要耐得住性子。最后，因为配置Hexo实在太麻烦了，我就懒得做教程了，因为这些东西都很散，我也不好整理一些教程，所以还请大家自行百度怎么配置，如果有不会的地方，可以在网站的右边聊天室里联系我，或者点击QQ图标联系我，我看见了就会回的，最后配置全部弄好的小伙伴，我推荐使用Hexo Admin来写博客，这个比直接命令写方便一点，如果你们有更好的方法，还请你们教我一下，哈哈。po一下Hexo Admin：<img src="/images/4.png" alt=""><br><strong>以上，拜拜！</strong></p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>其实搭建个人博客的第一步已经完成了，接下来就是配置Hexo，还有换主题，自己写配置啥的，这里就麻烦的一批了，也是我花最多时间的地方，还报错不断，所幸最后都一一解决了，如果有想用Hexo搭建blog的小伙伴，一定要耐得住性子。最后，因为配置Hexo实在太麻烦了，我就懒得做教程了，因为这些东西都很散，我也不好整理一些教程，所以还请大家自行百度怎么配置，如果有不会的地方，可以在网站的右边聊天室里联系我，或者点击QQ图标联系我，我看见了就会回的，最后配置全部弄好的小伙伴，我推荐使用Hexo Admin来写博客，这个比直接命令写方便一点，如果你们有更好的方法，还请你们教我一下，哈哈。po一下Hexo Admin：<img src="http://47.99.106.190:8080/images/4.png" alt=""><br><strong>以上，拜拜！</strong></p>
 
             </div>
             <hr/>
