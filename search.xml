@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>震惊！一元就能买域名？</title>
+    <url>/2020/03/14/zhen-liang-yi-yuan-jiu-neng-mai-yu-ming/</url>
+    <content><![CDATA[<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>自从前几天搭好了个人blog，一直想买个域名，毕竟GitHub的域名又臭又长，奈何家境贫寒，拿胡大小的话来说，买域名的钱多买几顿夜宵不香嘛，我想想也是，反正GitHub的域名也不是不能用，但是不巧，今天逛知乎的时候，看见了腾讯云的广告(只要广告做的好，什么钱赚不到)：<img src="http://47.99.106.190:8080/image/yuming.png" alt=""><br><strong>1元？</strong>我还以为这只是腾讯做的虚假广告，但是好奇心还是驱动我点了进去，emmm…<img src="http://47.99.106.190:8080/image/yuming2.png" alt=""><br><strong>一元真香警告</strong>。接下来就是花钱买域名了，我买了一个.club的域名，一开始想买.top的，但是要三块钱，哎，家境贫寒。</p>
+<h3 id="配置域名"><a href="#配置域名" class="headerlink" title="配置域名"></a>配置域名</h3><p><strong>一、实名认证，不需要备案</strong><br>买好域名后，首先要再次实名认证一下，进入域名控制台，它会提醒你认证，还有网站备案，这个可以先不管，因为你刚注册的域名是无法备案的，你可以过几天再去备案。<br><strong>二、域名解析</strong><br><img src="http://47.99.106.190:8080/image/yuming3.png" alt=""><br><img src="http://47.99.106.190:8080/image/yuming4.png" alt=""><br><img src="http://47.99.106.190:8080/image/yuming5.png" alt=""><br><img src="http://47.99.106.190:8080/image/yuming6.png" alt=""><br><strong>三、输入ip，完成解析</strong><br>怎么找到ip呢？首先win+R，输入cmd，然后键入ping 你的Github域名，就可以获得一个ip<br><img src="http://47.99.106.190:8080/image/yuming7.png" alt=""><br>最后把这个ip输入刚刚要求的主机ip里。确定后会出现两个主机记录，反正改成我这样就行了！(注意一定要和我这个一样，一一对应！)<br><img src="http://47.99.106.190:8080/image/yuming8.png" alt=""><br><strong>四、添加CNAME记事本</strong><br>找到自己本地blog的根目录，找到source文件夹，然后新建CNAME记事本，输入自己的网址,像这样：<br><img src="http://47.99.106.190:8080/image/yuming9.png" alt=""></p>
+<h3 id="配置Github，绑定域名"><a href="#配置Github，绑定域名" class="headerlink" title="配置Github，绑定域名"></a>配置Github，绑定域名</h3><p>进入自己的blog仓库，然后点击setting<br><img src="http://47.99.106.190:8080/image/yuming10.png" alt=""><br>然后一直往下拉，直到看见<br><img src="http://47.99.106.190:8080/image/yuming11.png" alt=""><br>最后设置自己的域名，Save即可</p>
+<h3 id="输入域名访问blog"><a href="#输入域名访问blog" class="headerlink" title="输入域名访问blog"></a>输入域名访问blog</h3><p>最后输入自己买的域名，即可访问自己的blog！</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo+github的尖酸历程</title>
     <url>/2020/03/13/hexo-github-de-jian-suan-li-cheng/</url>
     <content><![CDATA[<h3 id="一次偶然的遇见"><a href="#一次偶然的遇见" class="headerlink" title="一次偶然的遇见"></a>一次偶然的遇见</h3><p>&nbsp;&nbsp;其实很早之前我就想写个个人博客,但是我这个人比较懒，所以很久的想法一直没有手动实现。转折点是前几天，我独自在某小网站上看视频，偶然间进入了现就职于B站的前端大佬的blog，因为那些视频播放器就是他写的。哇，他的blog真的有点东西的，很是羡慕，所以心中的那团小火又燃了起来，接下来就是一整天，注意是一整天的尖酸历程，太惨了我…顺便po一下这位大佬的blog一角：<br><img src="http://47.99.106.190:8080/image/2.png" alt=""></p>
