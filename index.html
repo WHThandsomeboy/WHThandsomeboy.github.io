@@ -484,12 +484,94 @@
     
 
     
+        
+
+<link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<div class="">
+    
+    <div class="title center-align">
+        <i class="fas fa-music"></i>&nbsp;&nbsp;听听音乐
+    </div>
+    
+    <div class="row">
+        <div class="col l8 offset-l2 m10 offset-m1 s12">
+            <div id="aplayer" class="music"></div>
+        </div>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script>
+$(function () {
+    new APlayer({
+        container: document.getElementById('aplayer'),
+        fixed: 'false# 开启吸底模式' === 'true',
+        autoplay: 'true' === 'true',
+        theme: '#42b983',
+        loop: 'none',
+        order: 'list',
+        preload: 'auto',
+        volume: Number('0.7'),
+        listFolded: 'true# 列表默认折叠' === 'true',
+        listMaxHeight: '',
+        audio: eval([{"name":"十七岁","artist":"刘德华","url":"http://47.99.106.190:8080/music/17sui.mp3","cover":"http://47.99.106.190:8080/image/17sui.jpg"}])
+    });
+});
+</script>
+    
 
     
 
     <!-- 所有文章卡片 -->
     <article id="articles" class="container articles">
         <div class="row article-row">
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/03/25/javabean-zhong-scope-de-shu-xing/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="JavaBean中Scope的属性">
+                            
+                            <span class="card-title">JavaBean中Scope的属性</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                前言 昨天在做作业jsp7-4的时候，遇到了一点问题，代码不难，几乎都是一遍写下来了，但是  哎？按照正常操作不是应该输出爱好为：唱，跳，rap，篮球嘛，为什么只能输出一个唱呢？难道cxk真的就爱唱嘛？（手动滑稽）。我陷入了沉思，反复检查代
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-25
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
+                                    技术
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E6%8A%80%E6%9C%AF/">
+                            <span class="chip bg-color">技术</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
@@ -608,7 +690,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">2.1k</span>&nbsp;字
+                class="white-color">3.1k</span>&nbsp;字
             
             
             

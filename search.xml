@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>JavaBean中Scope的属性</title>
+    <url>/2020/03/25/javabean-zhong-scope-de-shu-xing/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p> 昨天在做作业jsp7-4的时候，遇到了一点问题，代码不难，几乎都是一遍写下来了，但是<br> <img src="http://47.99.106.190:8080/image/jsp7-1.png" alt=""><br> <img src="http://47.99.106.190:8080/image/jsp7-2.png" alt=""><br>哎？按照正常操作不是应该输出爱好为：唱，跳，rap，篮球嘛，为什么只能输出一个唱呢？难道cxk真的就爱唱嘛？（手动滑稽）。我陷入了沉思，反复检查代码，本来半个小时就写完的作业，硬是拖到了一个多小时，但是还是没发现哪里错了，我放弃了检查代码，尝试检测session中到底有没有保存这个对象，结果显示session保存了user对象。<br><img src="http://47.99.106.190:8080/image/jsp7-3.png" alt=""><br><img src="http://47.99.106.190:8080/image/jsp7-4.png" alt=""><br>那么错误就显而易见了，JavaBean中scope的问题，因为很少用getProperty输出，所以对scope的属性了解不多，这里我没有更改scope属性，默认就是page，结果show.jsp页面就读取不到session中的对象了，只能读取login.jsp页面提交的内容，这才有了爱好只有唱。所以只需要把scope的属性改为session，让JavaBean能读取到session就行了。<br><img src="http://47.99.106.190:8080/image/jsp7-5.png" alt=""></p>
+<h3 id="JavaBean的Scope属性"><a href="#JavaBean的Scope属性" class="headerlink" title="JavaBean的Scope属性"></a>JavaBean的Scope属性</h3><p>我们不妨做个实验：写一个求和的JavaBean</p>
+<pre><code>package com.wht;
+public class sum {
+    int i=0;
+    public int getI() {
+        i++;
+        return i;
+    }
+}</code></pre><p>然后写一个jsp页面显示求和的值</p>
+<pre><code>&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=utf-8&quot;
+    pageEncoding=&quot;utf-8&quot;%&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Insert title here&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;jsp:useBean id=&quot;sum&quot; class=&quot;com.wht.sum&quot; scope=&quot;page/request/session/application&quot;&gt;&lt;/jsp:useBean&gt;
+    &lt;jsp:getProperty property=&quot;i&quot; name=&quot;sum&quot;/&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><p>scope我们分别取page、request、session、application测试。<br><strong>1、</strong>使用page和request时，无论怎么刷新页面sum的值都为1，也就是JavaBean被执行了一次后，page和request就失效了。<br><strong>2、</strong>使用session时，在不关闭浏览器页面的情况下，一直刷新，sum的值就一直递增，但是如果新开一个浏览器页面，那么sum的值又会回到1。<br><strong>3、</strong>使用application时，在不关闭浏览器页面的情况下，一直刷新，sum的值就一直递增，但是不同与session的时，就算你关闭了浏览器，但是再次打开的时候，你会发现sum的值没有回到1，而是在之前的基础上继续递增。<br><strong>总结：从实验上可以看出作用域application&gt;session&gt;request&gt;page。</strong></p>
+<h3 id="javaBean的4种scope属性总结"><a href="#javaBean的4种scope属性总结" class="headerlink" title="javaBean的4种scope属性总结"></a>javaBean的4种scope属性总结</h3><p><strong>javaBean的page作用域：</strong><br>默认的scope值，作用域范围最小，创立的对象只能在当前的jsp程序中使用，客户端请求执行完后，javaBean对象会立即注销。<br><strong>javaBean的request作用域：</strong><br>使用<code>&lt;jsp:forwoard&gt;</code>重定向货用<code>&lt;jsp:include&gt;</code>动作导入jsp程序时，定义的对象会被传到下一个程序中，下一个程序可以任意调用此对象的内容。<br><strong>JavaBean的session作用域:</strong><br>session （有效期限是用户会话期间，也就是session的生命周期结束后才结束，不同用户的session间不会相互影响）表示将JavaBean实例对象存储在HttpSession对象中，存储在HttpSession对象中的JavaBean对象可以被属于同一个会话的所有Servlet和JSP页面访问，此设置要求当前JSP页面支持Session，即没有将page指令的session属性设置为false。也就是对一个特定用户有效，一个http会话。<br><strong>JavaBean的application作用域：</strong><br>application（有效期限是最长的，服务器关闭有限期限才结束，可以在不同用户间共享）表示将JavaBean实例对象存储在ServletContext对象中，存储在ServletContext对象中的JavaBean对象可以被同一个Web应用程序中的所有Servlet和JSP页面访问。也就是所有用户都可以使用。</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>震惊！一元就能买域名？</title>
     <url>/2020/03/14/zhen-liang-yi-yuan-jiu-neng-mai-yu-ming/</url>
     <content><![CDATA[<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>自从前几天搭好了个人blog，一直想买个域名，毕竟GitHub的域名又臭又长，奈何家境贫寒，拿胡大小的话来说，买域名的钱多买几顿夜宵不香嘛，我想想也是，反正GitHub的域名也不是不能用，但是不巧，今天逛知乎的时候，看见了腾讯云的广告(只要广告做的好，什么钱赚不到)：<img src="http://47.99.106.190:8080/image/yuming.png" alt=""><br><strong>1元？</strong>我还以为这只是腾讯做的虚假广告，但是好奇心还是驱动我点了进去，emmm…<img src="http://47.99.106.190:8080/image/yuming2.png" alt=""><br><strong>一元真香警告</strong>。接下来就是花钱买域名了，我买了一个.club的域名，一开始想买.top的，但是要三块钱，哎，家境贫寒。</p>
