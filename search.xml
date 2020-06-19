@@ -1,109 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>JSP课程结束总结</title>
-      <link href="/2020/06/19/jsp-ke-cheng-jie-shu-zong-jie/"/>
-      <url>/2020/06/19/jsp-ke-cheng-jie-shu-zong-jie/</url>
-      
-        <content type="html"><![CDATA[<h3 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h3><p>&nbsp;&nbsp;好久没写过博客了，上次写博客应该还是在三月底吧，主要自己太懒了，抽自己十巴掌，二来感觉也没啥内容好写的，趁着JSP课程结束，写一篇博客记录总结一下。</p><h3 id="改变"><a href="#改变" class="headerlink" title="改变"></a>改变</h3><p>&nbsp;&nbsp;了解我的人应该都知道我不是一个读书人，如果说我有什么优点，应该就是所有游戏都强了吧，嘿嘿，好像就小学有认真学习过，羞愧啊，初中浑浑噩噩进了重点高中，高中又浑浑噩噩的考了一本，一切都像是运气使然，直到上了大学，运气好像不是很管用了，大一一年裸考了俩次四级都没过，第一次424没过，或许这就是运气用完了吧。大二上第一次在图书馆写英语卷子，已经一年多没学英语的我，写起来还是很吃力的，但是幸运的是，大二上四级过了，也算是写了那么多卷子的回报吧。同年，我哥从小企业面试进入杭州某国企，起步月薪20k+，我姐大四也在准备考研，并且已经收到合肥某私立初中的offer，包吃包住、五险一金，月薪5k，我想一个女生这样水平，已经算不错了吧。我承认我羡慕他们了。不是因为他们的薪资，而是他们都在努力考研，努力工作，我觉得这才年轻人该干的吧，想了很久，卸载了所有游戏……努力学习，努力打代码，当你认真开始学习后，你才发现，时间真的不够用，寒假的时候，随便改改bug，完善项目，随随便便就能熬到凌晨，就连搭这个博客，也花了我一整天的时间。我深知自己是个菜鸟，只能花更多的时间去看视频，阅读Blog，阅读文献。JSP课程应该就是起点了。</p><h3 id="2020-01-15-2020-06-18"><a href="#2020-01-15-2020-06-18" class="headerlink" title="2020.01.15 - 2020.06.18"></a>2020.01.15 - 2020.06.18</h3><p>&nbsp;&nbsp;整整五个月，JSP“折磨”了我五个月，大学生应该有一个美好的寒假，而我们的寒假只有无休无止的作业(以下为一部分)。<br><img src="http://47.99.106.190:8080/image/kecheng1.png" alt=""><br><img src="http://47.99.106.190:8080/image/kecheng2.png" alt=""><br>&nbsp;&nbsp;一边写着这么多作业，一边还重新学习JAVA，一边还要兼顾其他课程，那段时间真是心身交瘁，不过戒了游戏，确实腾出不少时间学习，煎熬是肯定的，收获也是肯定的。</p><h3 id="PetStore项目"><a href="#PetStore项目" class="headerlink" title="PetStore项目"></a>PetStore项目</h3><p><img src="http://47.99.106.190:8080/image/kecheng3.png" alt=""><br><a href="http://47.99.106.190:8080/PetStore/index" target="_blank" rel="noopener">查看详情点击我</a> &nbsp;&nbsp;账户: <a href="mailto:Jefferson@163.com">Jefferson@163.com</a>  密码:123<br>这是课程做的最后一个项目，也是最复杂，最大的一个项目，前前后后写了一个月,写了大部分的购物功能。应该算是个人完成的小商城吧。虽然随着时代的进步，JSP这种前后端耦合的技术肯定要被淘汰的，毕竟程序员当爹又当妈，而且动态资源和静态资源全部耦合在一起，无法做到真正的动静分离，服务器也压力大。但是我们学习的目的，我认为主要是学习MVC模式，不管是PHP还是以后学的Spring框架以及各种Web框架都有MVC的思想，JSP作为入门技术，也是值得学习的，PetStore就是一个典型的MVC模式的项目。</p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>&nbsp;&nbsp;回顾这五个月，站在我现在的角度来看，我还是想再经历一遍，第一次通过打代码获得这么多成就感，现在也能在代码上指导不少同学，学习新框架也是游刃有余，我觉得五个月的付出还是很值得的。<br>&nbsp;&nbsp;最后，我们才大二下，下学期才大三，我们的大学还有俩年，其实对于很多人来说，就算已经玩了俩年，现在迷途知返，还是有机会补救的，就怕浑浑噩噩，还不了解就业趋势，糊涂的混了大学四年，可能以后找对口工作会有一点难度吧。也祝愿自己考研顺利，工作顺利，前程似锦！</p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>JSP课程结束总结</title>
+    <url>/2020/06/19/jsp-ke-cheng-jie-shu-zong-jie/</url>
+    <content><![CDATA[<h3 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h3><p>&nbsp;&nbsp;好久没写过博客了，上次写博客应该还是在三月底吧，主要自己太懒了，抽自己十巴掌，二来感觉也没啥内容好写的，趁着JSP课程结束，写一篇博客记录总结一下。</p>
+<h3 id="改变"><a href="#改变" class="headerlink" title="改变"></a>改变</h3><p>&nbsp;&nbsp;了解我的人应该都知道我不是一个读书人，如果说我有什么优点，应该就是所有游戏都强了吧，嘿嘿，好像就小学有认真学习过，羞愧啊，初中浑浑噩噩进了重点高中，高中又浑浑噩噩的考了一本，一切都像是运气使然，直到上了大学，运气好像不是很管用了，大一一年裸考了俩次四级都没过，第一次424没过，或许这就是运气用完了吧。大二上第一次在图书馆写英语卷子，已经一年多没学英语的我，写起来还是很吃力的，但是幸运的是，大二上四级过了，也算是写了那么多卷子的回报吧。同年，我哥从小企业面试进入杭州某国企，起步月薪20k+，我姐大四也在准备考研，并且已经收到合肥某私立初中的offer，包吃包住、五险一金，月薪5k，我想一个女生这样水平，已经算不错了吧。我承认我羡慕他们了。不是因为他们的薪资，而是他们都在努力考研，努力工作，我觉得这才年轻人该干的吧，想了很久，卸载了所有游戏……努力学习，努力打代码，当你认真开始学习后，你才发现，时间真的不够用，寒假的时候，随便改改bug，完善项目，随随便便就能熬到凌晨，就连搭这个博客，也花了我一整天的时间。我深知自己是个菜鸟，只能花更多的时间去看视频，阅读Blog，阅读文献。JSP课程应该就是起点了。</p>
+<h3 id="2020-01-15-2020-06-18"><a href="#2020-01-15-2020-06-18" class="headerlink" title="2020.01.15 - 2020.06.18"></a>2020.01.15 - 2020.06.18</h3><p>&nbsp;&nbsp;整整五个月，JSP“折磨”了我五个月，大学生应该有一个美好的寒假，而我们的寒假只有无休无止的作业(以下为一部分)。<br><img src="http://47.99.106.190:8080/image/kecheng1.png" alt=""><br><img src="http://47.99.106.190:8080/image/kecheng2.png" alt=""><br>&nbsp;&nbsp;一边写着这么多作业，一边还重新学习JAVA，一边还要兼顾其他课程，那段时间真是心身交瘁，不过戒了游戏，确实腾出不少时间学习，煎熬是肯定的，收获也是肯定的。</p>
+<h3 id="PetStore项目"><a href="#PetStore项目" class="headerlink" title="PetStore项目"></a>PetStore项目</h3><p><img src="http://47.99.106.190:8080/image/kecheng3.png" alt=""><br><a href="http://47.99.106.190:8080/PetStore/index" target="_blank" rel="noopener">查看详情点击我</a> &nbsp;&nbsp;账户: <a href="mailto:Jefferson@163.com">Jefferson@163.com</a>  密码:123<br>这是课程做的最后一个项目，也是最复杂，最大的一个项目，前前后后写了一个月,写了大部分的购物功能。应该算是个人完成的小商城吧。虽然随着时代的进步，JSP这种前后端耦合的技术肯定要被淘汰的，毕竟程序员当爹又当妈，而且动态资源和静态资源全部耦合在一起，无法做到真正的动静分离，服务器也压力大。但是我们学习的目的，我认为主要是学习MVC模式，不管是PHP还是以后学的Spring框架以及各种Web框架都有MVC的思想，JSP作为入门技术，也是值得学习的，PetStore就是一个典型的MVC模式的项目。</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>&nbsp;&nbsp;回顾这五个月，站在我现在的角度来看，我还是想再经历一遍，第一次通过打代码获得这么多成就感，现在也能在代码上指导不少同学，学习新框架也是游刃有余，我觉得五个月的付出还是很值得的。<br>&nbsp;&nbsp;最后，我们才大二下，下学期才大三，我们的大学还有俩年，其实对于很多人来说，就算已经玩了俩年，现在迷途知返，还是有机会补救的，就怕浑浑噩噩，还不了解就业趋势，糊涂的混了大学四年，可能以后找对口工作会有一点难度吧。也祝愿自己考研顺利，工作顺利，前程似锦！</p>
+]]></content>
       <categories>
-          
-          <category> 心得 </category>
-          
+        <category>心得</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 心得 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>JavaBean中Scope的属性</title>
-      <link href="/2020/03/25/javabean-zhong-scope-de-shu-xing/"/>
-      <url>/2020/03/25/javabean-zhong-scope-de-shu-xing/</url>
-      
-        <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p> 昨天在做作业jsp7-4的时候，遇到了一点问题，代码不难，几乎都是一遍写下来了，但是<br> <img src="http://47.99.106.190:8080/image/jsp7-1.png" alt=""><br> <img src="http://47.99.106.190:8080/image/jsp7-2.png" alt=""><br>哎？按照正常操作不是应该输出爱好为：唱，跳，rap，篮球嘛，为什么只能输出一个唱呢？难道cxk真的就爱唱嘛？（手动滑稽）。我陷入了沉思，反复检查代码，本来半个小时就写完的作业，硬是拖到了一个多小时，但是还是没发现哪里错了，我放弃了检查代码，尝试检测session中到底有没有保存这个对象，结果显示session保存了user对象。<br><img src="http://47.99.106.190:8080/image/jsp7-3.png" alt=""><br><img src="http://47.99.106.190:8080/image/jsp7-4.png" alt=""><br>那么错误就显而易见了，JavaBean中scope的问题，因为很少用getProperty输出，所以对scope的属性了解不多，这里我没有更改scope属性，默认就是page，结果show.jsp页面就读取不到session中的对象了，只能读取login.jsp页面提交的内容，这才有了爱好只有唱。所以只需要把scope的属性改为session，让JavaBean能读取到session就行了。<br><img src="http://47.99.106.190:8080/image/jsp7-5.png" alt=""></p><h3 id="JavaBean的Scope属性"><a href="#JavaBean的Scope属性" class="headerlink" title="JavaBean的Scope属性"></a>JavaBean的Scope属性</h3><p>我们不妨做个实验：写一个求和的JavaBean</p><pre><code>package com.wht;public class sum {    int i=0;    public int getI() {        i++;        return i;    }}</code></pre><p>然后写一个jsp页面显示求和的值</p><pre><code>&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=utf-8&quot;    pageEncoding=&quot;utf-8&quot;%&gt;&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;title&gt;Insert title here&lt;/title&gt;&lt;/head&gt;&lt;body&gt;    &lt;jsp:useBean id=&quot;sum&quot; class=&quot;com.wht.sum&quot; scope=&quot;page/request/session/application&quot;&gt;&lt;/jsp:useBean&gt;    &lt;jsp:getProperty property=&quot;i&quot; name=&quot;sum&quot;/&gt;&lt;/body&gt;&lt;/html&gt;</code></pre><p>scope我们分别取page、request、session、application测试。<br><strong>1、</strong>使用page和request时，无论怎么刷新页面sum的值都为1，也就是JavaBean被执行了一次后，page和request就失效了。<br><strong>2、</strong>使用session时，在不关闭浏览器页面的情况下，一直刷新，sum的值就一直递增，但是如果新开一个浏览器页面，那么sum的值又会回到1。<br><strong>3、</strong>使用application时，在不关闭浏览器页面的情况下，一直刷新，sum的值就一直递增，但是不同与session的时，就算你关闭了浏览器，但是再次打开的时候，你会发现sum的值没有回到1，而是在之前的基础上继续递增。<br><strong>总结：从实验上可以看出作用域application&gt;session&gt;request&gt;page。</strong></p><h3 id="javaBean的4种scope属性总结"><a href="#javaBean的4种scope属性总结" class="headerlink" title="javaBean的4种scope属性总结"></a>javaBean的4种scope属性总结</h3><p><strong>javaBean的page作用域：</strong><br>默认的scope值，作用域范围最小，创立的对象只能在当前的jsp程序中使用，客户端请求执行完后，javaBean对象会立即注销。<br><strong>javaBean的request作用域：</strong><br>使用<code>&lt;jsp:forwoard&gt;</code>重定向货用<code>&lt;jsp:include&gt;</code>动作导入jsp程序时，定义的对象会被传到下一个程序中，下一个程序可以任意调用此对象的内容。<br><strong>JavaBean的session作用域:</strong><br>session （有效期限是用户会话期间，也就是session的生命周期结束后才结束，不同用户的session间不会相互影响）表示将JavaBean实例对象存储在HttpSession对象中，存储在HttpSession对象中的JavaBean对象可以被属于同一个会话的所有Servlet和JSP页面访问，此设置要求当前JSP页面支持Session，即没有将page指令的session属性设置为false。也就是对一个特定用户有效，一个http会话。<br><strong>JavaBean的application作用域：</strong><br>application（有效期限是最长的，服务器关闭有限期限才结束，可以在不同用户间共享）表示将JavaBean实例对象存储在ServletContext对象中，存储在ServletContext对象中的JavaBean对象可以被同一个Web应用程序中的所有Servlet和JSP页面访问。也就是所有用户都可以使用。</p>]]></content>
-      
-      
+      <tags>
+        <tag>心得</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JavaBean中Scope的属性</title>
+    <url>/2020/03/25/javabean-zhong-scope-de-shu-xing/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p> 昨天在做作业jsp7-4的时候，遇到了一点问题，代码不难，几乎都是一遍写下来了，但是<br> <img src="http://47.99.106.190:8080/image/jsp7-1.png" alt=""><br> <img src="http://47.99.106.190:8080/image/jsp7-2.png" alt=""><br>哎？按照正常操作不是应该输出爱好为：唱，跳，rap，篮球嘛，为什么只能输出一个唱呢？难道cxk真的就爱唱嘛？（手动滑稽）。我陷入了沉思，反复检查代码，本来半个小时就写完的作业，硬是拖到了一个多小时，但是还是没发现哪里错了，我放弃了检查代码，尝试检测session中到底有没有保存这个对象，结果显示session保存了user对象。<br><img src="http://47.99.106.190:8080/image/jsp7-3.png" alt=""><br><img src="http://47.99.106.190:8080/image/jsp7-4.png" alt=""><br>那么错误就显而易见了，JavaBean中scope的问题，因为很少用getProperty输出，所以对scope的属性了解不多，这里我没有更改scope属性，默认就是page，结果show.jsp页面就读取不到session中的对象了，只能读取login.jsp页面提交的内容，这才有了爱好只有唱。所以只需要把scope的属性改为session，让JavaBean能读取到session就行了。<br><img src="http://47.99.106.190:8080/image/jsp7-5.png" alt=""></p>
+<h3 id="JavaBean的Scope属性"><a href="#JavaBean的Scope属性" class="headerlink" title="JavaBean的Scope属性"></a>JavaBean的Scope属性</h3><p>我们不妨做个实验：写一个求和的JavaBean</p>
+<pre><code>package com.wht;
+public class sum {
+    int i=0;
+    public int getI() {
+        i++;
+        return i;
+    }
+}</code></pre><p>然后写一个jsp页面显示求和的值</p>
+<pre><code>&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=utf-8&quot;
+    pageEncoding=&quot;utf-8&quot;%&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Insert title here&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;jsp:useBean id=&quot;sum&quot; class=&quot;com.wht.sum&quot; scope=&quot;page/request/session/application&quot;&gt;&lt;/jsp:useBean&gt;
+    &lt;jsp:getProperty property=&quot;i&quot; name=&quot;sum&quot;/&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><p>scope我们分别取page、request、session、application测试。<br><strong>1、</strong>使用page和request时，无论怎么刷新页面sum的值都为1，也就是JavaBean被执行了一次后，page和request就失效了。<br><strong>2、</strong>使用session时，在不关闭浏览器页面的情况下，一直刷新，sum的值就一直递增，但是如果新开一个浏览器页面，那么sum的值又会回到1。<br><strong>3、</strong>使用application时，在不关闭浏览器页面的情况下，一直刷新，sum的值就一直递增，但是不同与session的时，就算你关闭了浏览器，但是再次打开的时候，你会发现sum的值没有回到1，而是在之前的基础上继续递增。<br><strong>总结：从实验上可以看出作用域application&gt;session&gt;request&gt;page。</strong></p>
+<h3 id="javaBean的4种scope属性总结"><a href="#javaBean的4种scope属性总结" class="headerlink" title="javaBean的4种scope属性总结"></a>javaBean的4种scope属性总结</h3><p><strong>javaBean的page作用域：</strong><br>默认的scope值，作用域范围最小，创立的对象只能在当前的jsp程序中使用，客户端请求执行完后，javaBean对象会立即注销。<br><strong>javaBean的request作用域：</strong><br>使用<code>&lt;jsp:forwoard&gt;</code>重定向货用<code>&lt;jsp:include&gt;</code>动作导入jsp程序时，定义的对象会被传到下一个程序中，下一个程序可以任意调用此对象的内容。<br><strong>JavaBean的session作用域:</strong><br>session （有效期限是用户会话期间，也就是session的生命周期结束后才结束，不同用户的session间不会相互影响）表示将JavaBean实例对象存储在HttpSession对象中，存储在HttpSession对象中的JavaBean对象可以被属于同一个会话的所有Servlet和JSP页面访问，此设置要求当前JSP页面支持Session，即没有将page指令的session属性设置为false。也就是对一个特定用户有效，一个http会话。<br><strong>JavaBean的application作用域：</strong><br>application（有效期限是最长的，服务器关闭有限期限才结束，可以在不同用户间共享）表示将JavaBean实例对象存储在ServletContext对象中，存储在ServletContext对象中的JavaBean对象可以被同一个Web应用程序中的所有Servlet和JSP页面访问。也就是所有用户都可以使用。</p>
+]]></content>
       <categories>
-          
-          <category> 技术 </category>
-          
+        <category>技术</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 技术 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>震惊！一元就能买域名？</title>
-      <link href="/2020/03/14/zhen-liang-yi-yuan-jiu-neng-mai-yu-ming/"/>
-      <url>/2020/03/14/zhen-liang-yi-yuan-jiu-neng-mai-yu-ming/</url>
-      
-        <content type="html"><![CDATA[<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>自从前几天搭好了个人blog，一直想买个域名，毕竟GitHub的域名又臭又长，奈何家境贫寒，拿胡大小的话来说，买域名的钱多买几顿夜宵不香嘛，我想想也是，反正GitHub的域名也不是不能用，但是不巧，今天逛知乎的时候，看见了腾讯云的广告(只要广告做的好，什么钱赚不到)：<img src="http://47.99.106.190:8080/image/yuming.png" alt=""><br><strong>1元？</strong>我还以为这只是腾讯做的虚假广告，但是好奇心还是驱动我点了进去，emmm…<img src="http://47.99.106.190:8080/image/yuming2.png" alt=""><br><strong>一元真香警告</strong>。接下来就是花钱买域名了，我买了一个.club的域名，一开始想买.top的，但是要三块钱，哎，家境贫寒。</p><h3 id="配置域名"><a href="#配置域名" class="headerlink" title="配置域名"></a>配置域名</h3><p><strong>一、实名认证，不需要备案</strong><br>买好域名后，首先要再次实名认证一下，进入域名控制台，它会提醒你认证，还有网站备案，这个可以先不管，因为你刚注册的域名是无法备案的，你可以过几天再去备案。<br><strong>二、域名解析</strong><br><img src="http://47.99.106.190:8080/image/yuming3.png" alt=""><br><img src="http://47.99.106.190:8080/image/yuming4.png" alt=""><br><img src="http://47.99.106.190:8080/image/yuming5.png" alt=""><br><img src="http://47.99.106.190:8080/image/yuming6.png" alt=""><br><strong>三、输入ip，完成解析</strong><br>怎么找到ip呢？首先win+R，输入cmd，然后键入ping 你的Github域名，就可以获得一个ip<br><img src="http://47.99.106.190:8080/image/yuming7.png" alt=""><br>最后把这个ip输入刚刚要求的主机ip里。确定后会出现两个主机记录，反正改成我这样就行了！(注意一定要和我这个一样，一一对应！)<br><img src="http://47.99.106.190:8080/image/yuming8.png" alt=""><br><strong>四、添加CNAME记事本</strong><br>找到自己本地blog的根目录，找到source文件夹，然后新建CNAME记事本，输入自己的网址,像这样：<br><img src="http://47.99.106.190:8080/image/yuming9.png" alt=""></p><h3 id="配置Github，绑定域名"><a href="#配置Github，绑定域名" class="headerlink" title="配置Github，绑定域名"></a>配置Github，绑定域名</h3><p>进入自己的blog仓库，然后点击setting<br><img src="http://47.99.106.190:8080/image/yuming10.png" alt=""><br>然后一直往下拉，直到看见<br><img src="http://47.99.106.190:8080/image/yuming11.png" alt=""><br>最后设置自己的域名，Save即可</p><h3 id="输入域名访问blog"><a href="#输入域名访问blog" class="headerlink" title="输入域名访问blog"></a>输入域名访问blog</h3><p>最后输入自己买的域名，即可访问自己的blog！</p>]]></content>
-      
-      
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>震惊！一元就能买域名？</title>
+    <url>/2020/03/14/zhen-liang-yi-yuan-jiu-neng-mai-yu-ming/</url>
+    <content><![CDATA[<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>自从前几天搭好了个人blog，一直想买个域名，毕竟GitHub的域名又臭又长，奈何家境贫寒，拿胡大小的话来说，买域名的钱多买几顿夜宵不香嘛，我想想也是，反正GitHub的域名也不是不能用，但是不巧，今天逛知乎的时候，看见了腾讯云的广告(只要广告做的好，什么钱赚不到)：<img src="http://47.99.106.190:8080/image/yuming.png" alt=""><br><strong>1元？</strong>我还以为这只是腾讯做的虚假广告，但是好奇心还是驱动我点了进去，emmm…<img src="http://47.99.106.190:8080/image/yuming2.png" alt=""><br><strong>一元真香警告</strong>。接下来就是花钱买域名了，我买了一个.club的域名，一开始想买.top的，但是要三块钱，哎，家境贫寒。</p>
+<h3 id="配置域名"><a href="#配置域名" class="headerlink" title="配置域名"></a>配置域名</h3><p><strong>一、实名认证，不需要备案</strong><br>买好域名后，首先要再次实名认证一下，进入域名控制台，它会提醒你认证，还有网站备案，这个可以先不管，因为你刚注册的域名是无法备案的，你可以过几天再去备案。<br><strong>二、域名解析</strong><br><img src="http://47.99.106.190:8080/image/yuming3.png" alt=""><br><img src="http://47.99.106.190:8080/image/yuming4.png" alt=""><br><img src="http://47.99.106.190:8080/image/yuming5.png" alt=""><br><img src="http://47.99.106.190:8080/image/yuming6.png" alt=""><br><strong>三、输入ip，完成解析</strong><br>怎么找到ip呢？首先win+R，输入cmd，然后键入ping 你的Github域名，就可以获得一个ip<br><img src="http://47.99.106.190:8080/image/yuming7.png" alt=""><br>最后把这个ip输入刚刚要求的主机ip里。确定后会出现两个主机记录，反正改成我这样就行了！(注意一定要和我这个一样，一一对应！)<br><img src="http://47.99.106.190:8080/image/yuming8.png" alt=""><br><strong>四、添加CNAME记事本</strong><br>找到自己本地blog的根目录，找到source文件夹，然后新建CNAME记事本，输入自己的网址,像这样：<br><img src="http://47.99.106.190:8080/image/yuming9.png" alt=""></p>
+<h3 id="配置Github，绑定域名"><a href="#配置Github，绑定域名" class="headerlink" title="配置Github，绑定域名"></a>配置Github，绑定域名</h3><p>进入自己的blog仓库，然后点击setting<br><img src="http://47.99.106.190:8080/image/yuming10.png" alt=""><br>然后一直往下拉，直到看见<br><img src="http://47.99.106.190:8080/image/yuming11.png" alt=""><br>最后设置自己的域名，Save即可</p>
+<h3 id="输入域名访问blog"><a href="#输入域名访问blog" class="headerlink" title="输入域名访问blog"></a>输入域名访问blog</h3><p>最后输入自己买的域名，即可访问自己的blog！</p>
+]]></content>
       <categories>
-          
-          <category> 技术 </category>
-          
+        <category>技术</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 技术 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hexo+github的尖酸历程</title>
-      <link href="/2020/03/13/hexo-github-de-jian-suan-li-cheng/"/>
-      <url>/2020/03/13/hexo-github-de-jian-suan-li-cheng/</url>
-      
-        <content type="html"><![CDATA[<h3 id="一次偶然的遇见"><a href="#一次偶然的遇见" class="headerlink" title="一次偶然的遇见"></a>一次偶然的遇见</h3><p>&nbsp;&nbsp;其实很早之前我就想写个个人博客,但是我这个人比较懒，所以很久的想法一直没有手动实现。转折点是前几天，我独自在某小网站上看视频，偶然间进入了现就职于B站的前端大佬的blog，因为那些视频播放器就是他写的。哇，他的blog真的有点东西的，很是羡慕，所以心中的那团小火又燃了起来，接下来就是一整天，注意是一整天的尖酸历程，太惨了我…顺便po一下这位大佬的blog一角：<br><img src="http://47.99.106.190:8080/image/2.png" alt=""></p><h3 id="进入正题"><a href="#进入正题" class="headerlink" title="进入正题"></a>进入正题</h3><p>&nbsp;&nbsp;奈何鄙人没文化，做不了这位大佬这样的效果，想着直接用git clone下这位大佬的代码，说着就行动起来了，emmm，github那速度你们懂的，我等了大概半小时，进度还是52%，然后我在他的github留言板上看见了别人的评论，说这这个主题好久没维护，已经不好用了，woc，心态瞬间爆炸，半个多小时直接白给。然后我就只能自己从了开始操作了，关于git方面的知识我就不说了，都很简单，也没什么坑，接下来就说说怎么使用Hexo写个人博客。</p><h3 id="Hexo是什么？"><a href="#Hexo是什么？" class="headerlink" title="Hexo是什么？"></a>Hexo是什么？</h3><p><a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。所以这是你构建个人博客一个特别好的工具！</p><h3 id="下载安装Hexo："><a href="#下载安装Hexo：" class="headerlink" title="下载安装Hexo："></a>下载安装Hexo：</h3><p>首先你要做好准备掌握以下几项东西：</p><ul><li>git</li><li>nodejs</li></ul><p><strong>安装Node和Git</strong><br>要按照下面的顺序一步步安装，每安装完一项，可以在cmd工具中通过查看对应版本的方式检测是否安装成功：name –version，例如：node –version；只要显示出了版本号就代表已经安装成功。<br>1.安装node.js。Node.js中文官网下载到桌面按默认路径安装即可；<br>2.安装git。Git官网或者百度软件中心下载到桌面按默认路径安装即可。<br>安装正确的话，在桌面或文件夹空白处鼠标右键菜单会新增“Git GUI Here”和“Git Bash Here”两个选项。如下：<img src="http://47.99.106.190:8080/image/3.jpg" alt=""><br>3.选装cnpm。淘宝cnpm官网。由于npm国内下载速度经常抽风，所以建议安装淘宝的这个镜像；使用方法就是在命令中把npm换成cnpm即可。<br>安装方法：在cmd工具中输入如下命令<br><code>npm install -g cnpm --registry=https://registry.npm.taobao.org</code><br><strong>安装Hexo和插件</strong><br>全局安装Hexo<br>在桌面空白处单击右键，打开git bash，输入<code>cnpm install hexo-cli -g</code>；安装完成后输入<code>hexo -v</code>，出现版本信息则表示安装成功。<br>在项目中安装Hexo<br>在桌面打开git bash，输入<code>mkdir hexoBlob</code>（在桌面新建了一个名为hexoBlog的文件夹），然后输入<code>cd hexoBlog</code>（进入到这个文件夹里），再依次执行如下操作：</p><pre><code>    cnpm install hexo --save    #在当前项目中安装hexo；    hexo init       #初始化hexo；    cnpm install        #安装依赖包；</code></pre><p>安装hexo的插件</p><pre><code>    cnpm install hexo-server --save     #搭建本地服务器所需插件    cnpm install hexo-deployer-git --save   #使用git方式进行部署博客所需插件</code></pre><p><strong>现在访问<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> 应该有显示初始化的Hexo博客</strong></p><h3 id="创建GitHub-Pages并配置ssh"><a href="#创建GitHub-Pages并配置ssh" class="headerlink" title="创建GitHub Pages并配置ssh"></a>创建GitHub Pages并配置ssh</h3><p>1.创建太简单了，我就默认你有Githubb账号了，那么你就去新建一个仓库，记住这个仓库的名字必须是：你的Github名.github.io，比如我的仓库名就是WHThandsomeboy.github.io!<br>2.本地生成ssh密钥。<br>git bash下输入<code>ssh-keygen -t rsa -C ‘你的邮箱地址’</code><br>3.上传本地的公钥串，使当前电脑与GitHub账户建立联系。<br>在你的电脑C：\ Users\你的计算机用户名.ssh目录下打开刚刚生成的id_rsa.pub，复制里面的内容。然后点击你GitHub账户右上角的头像，选择settings，找到SSH and GPG keys，点击进入之后再点击New SSH key，title随便写，把公钥串粘贴到文本框，保存即可。传送门：<a href="https://blog.csdn.net/binyao02123202/article/details/20130891" target="_blank" rel="noopener">Github设置添加SSH</a></p><h3 id="本地博客同步到GitHub上"><a href="#本地博客同步到GitHub上" class="headerlink" title="本地博客同步到GitHub上"></a>本地博客同步到GitHub上</h3><p>这一步其实就是把本地生成的博客内容（静态页面）放到GitHub新建成的仓库，你的.github.io中。<br>1.编辑博客配置文件: _config.yml<br>在hexo根目录（也就是hexoBlog文件夹）下找到_config.yml文件，把其中的deploy参数（没有的话就按如下格式新建，注意冒号后面一定要有一个空格），修改为：</p><pre><code class="deploy:">    type: git     repo: git@github.com:LiLei/LiLei.github.io.git              branch: master</code></pre><p> 2.重新部署<br>在博客根目录下打开Git Bash，依次执行如下Hexo命令：</p><pre><code>hexo clean    #会清除缓存文件db.json及之前生成的静态文件夹public；hexo g     #会重新生成静态文件夹public；hexo deploy    #因为之前已经安装了插件并且在博客配置文件中也配置好了，所以这个命令会在博客根目录下生成一个.deploy_git的文件夹，并 把本地生成的静态文件部署到LiLei.github.io这个仓库中的master分支上；简写形式为hexo d；</code></pre><p>3.在浏览器中访问博客<br>至此，你应该可以在浏览器中输入你自己的仓库名的网址，就可以发现你的博客被上传到Github上了</p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>其实搭建个人博客的第一步已经完成了，接下来就是配置Hexo，还有换主题，自己写配置啥的，这里就麻烦的一批了，也是我花最多时间的地方，还报错不断，所幸最后都一一解决了，如果有想用Hexo搭建blog的小伙伴，一定要耐得住性子。最后，因为配置Hexo实在太麻烦了，我就懒得做教程了，因为这些东西都很散，我也不好整理一些教程，所以还请大家自行百度怎么配置，如果有不会的地方，可以在网站的右边聊天室里联系我，或者点击QQ图标联系我，我看见了就会回的，最后配置全部弄好的小伙伴，我推荐使用Hexo Admin来写博客，这个比直接命令写方便一点，如果你们有更好的方法，还请你们教我一下，哈哈。po一下Hexo Admin：<img src="http://47.99.106.190:8080/image/4.png" alt=""><br><strong>以上，拜拜！</strong></p>]]></content>
-      
-      
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo+github的尖酸历程</title>
+    <url>/2020/03/13/hexo-github-de-jian-suan-li-cheng/</url>
+    <content><![CDATA[<h3 id="一次偶然的遇见"><a href="#一次偶然的遇见" class="headerlink" title="一次偶然的遇见"></a>一次偶然的遇见</h3><p>&nbsp;&nbsp;其实很早之前我就想写个个人博客,但是我这个人比较懒，所以很久的想法一直没有手动实现。转折点是前几天，我独自在某小网站上看视频，偶然间进入了现就职于B站的前端大佬的blog，因为那些视频播放器就是他写的。哇，他的blog真的有点东西的，很是羡慕，所以心中的那团小火又燃了起来，接下来就是一整天，注意是一整天的尖酸历程，太惨了我…顺便po一下这位大佬的blog一角：<br><img src="http://47.99.106.190:8080/image/2.png" alt=""></p>
+<h3 id="进入正题"><a href="#进入正题" class="headerlink" title="进入正题"></a>进入正题</h3><p>&nbsp;&nbsp;奈何鄙人没文化，做不了这位大佬这样的效果，想着直接用git clone下这位大佬的代码，说着就行动起来了，emmm，github那速度你们懂的，我等了大概半小时，进度还是52%，然后我在他的github留言板上看见了别人的评论，说这这个主题好久没维护，已经不好用了，woc，心态瞬间爆炸，半个多小时直接白给。然后我就只能自己从了开始操作了，关于git方面的知识我就不说了，都很简单，也没什么坑，接下来就说说怎么使用Hexo写个人博客。</p>
+<h3 id="Hexo是什么？"><a href="#Hexo是什么？" class="headerlink" title="Hexo是什么？"></a>Hexo是什么？</h3><p><a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。所以这是你构建个人博客一个特别好的工具！</p>
+<h3 id="下载安装Hexo："><a href="#下载安装Hexo：" class="headerlink" title="下载安装Hexo："></a>下载安装Hexo：</h3><p>首先你要做好准备掌握以下几项东西：</p>
+<ul>
+<li>git</li>
+<li>nodejs</li>
+</ul>
+<p><strong>安装Node和Git</strong><br>要按照下面的顺序一步步安装，每安装完一项，可以在cmd工具中通过查看对应版本的方式检测是否安装成功：name –version，例如：node –version；只要显示出了版本号就代表已经安装成功。<br>1.安装node.js。Node.js中文官网下载到桌面按默认路径安装即可；<br>2.安装git。Git官网或者百度软件中心下载到桌面按默认路径安装即可。<br>安装正确的话，在桌面或文件夹空白处鼠标右键菜单会新增“Git GUI Here”和“Git Bash Here”两个选项。如下：<img src="http://47.99.106.190:8080/image/3.jpg" alt=""><br>3.选装cnpm。淘宝cnpm官网。由于npm国内下载速度经常抽风，所以建议安装淘宝的这个镜像；使用方法就是在命令中把npm换成cnpm即可。<br>安装方法：在cmd工具中输入如下命令<br><code>npm install -g cnpm --registry=https://registry.npm.taobao.org</code><br><strong>安装Hexo和插件</strong><br>全局安装Hexo<br>在桌面空白处单击右键，打开git bash，输入<code>cnpm install hexo-cli -g</code>；安装完成后输入<code>hexo -v</code>，出现版本信息则表示安装成功。<br>在项目中安装Hexo<br>在桌面打开git bash，输入<code>mkdir hexoBlob</code>（在桌面新建了一个名为hexoBlog的文件夹），然后输入<code>cd hexoBlog</code>（进入到这个文件夹里），再依次执行如下操作：</p>
+<pre><code>    cnpm install hexo --save    #在当前项目中安装hexo；
+    hexo init       #初始化hexo；
+    cnpm install        #安装依赖包；</code></pre><p>安装hexo的插件</p>
+<pre><code>    cnpm install hexo-server --save     #搭建本地服务器所需插件
+    cnpm install hexo-deployer-git --save   #使用git方式进行部署博客所需插件</code></pre><p><strong>现在访问<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> 应该有显示初始化的Hexo博客</strong></p>
+<h3 id="创建GitHub-Pages并配置ssh"><a href="#创建GitHub-Pages并配置ssh" class="headerlink" title="创建GitHub Pages并配置ssh"></a>创建GitHub Pages并配置ssh</h3><p>1.创建太简单了，我就默认你有Githubb账号了，那么你就去新建一个仓库，记住这个仓库的名字必须是：你的Github名.github.io，比如我的仓库名就是WHThandsomeboy.github.io!<br>2.本地生成ssh密钥。<br>git bash下输入<code>ssh-keygen -t rsa -C ‘你的邮箱地址’</code><br>3.上传本地的公钥串，使当前电脑与GitHub账户建立联系。<br>在你的电脑C：\ Users\你的计算机用户名.ssh目录下打开刚刚生成的id_rsa.pub，复制里面的内容。然后点击你GitHub账户右上角的头像，选择settings，找到SSH and GPG keys，点击进入之后再点击New SSH key，title随便写，把公钥串粘贴到文本框，保存即可。传送门：<a href="https://blog.csdn.net/binyao02123202/article/details/20130891" target="_blank" rel="noopener">Github设置添加SSH</a></p>
+<h3 id="本地博客同步到GitHub上"><a href="#本地博客同步到GitHub上" class="headerlink" title="本地博客同步到GitHub上"></a>本地博客同步到GitHub上</h3><p>这一步其实就是把本地生成的博客内容（静态页面）放到GitHub新建成的仓库，你的.github.io中。<br>1.编辑博客配置文件: _config.yml<br>在hexo根目录（也就是hexoBlog文件夹）下找到_config.yml文件，把其中的deploy参数（没有的话就按如下格式新建，注意冒号后面一定要有一个空格），修改为：</p>
+<pre><code class="deploy:">    type: git 
+    repo: git@github.com:LiLei/LiLei.github.io.git          
+    branch: master</code></pre>
+<p> 2.重新部署<br>在博客根目录下打开Git Bash，依次执行如下Hexo命令：</p>
+<pre><code>hexo clean    #会清除缓存文件db.json及之前生成的静态文件夹public；
+hexo g     #会重新生成静态文件夹public；
+hexo deploy    #因为之前已经安装了插件并且在博客配置文件中也配置好了，所以这个命令会在博客根目录下生成一个.deploy_git的文件夹，并 把本地生成的静态文件部署到LiLei.github.io这个仓库中的master分支上；简写形式为hexo d；</code></pre><p>3.在浏览器中访问博客<br>至此，你应该可以在浏览器中输入你自己的仓库名的网址，就可以发现你的博客被上传到Github上了</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>其实搭建个人博客的第一步已经完成了，接下来就是配置Hexo，还有换主题，自己写配置啥的，这里就麻烦的一批了，也是我花最多时间的地方，还报错不断，所幸最后都一一解决了，如果有想用Hexo搭建blog的小伙伴，一定要耐得住性子。最后，因为配置Hexo实在太麻烦了，我就懒得做教程了，因为这些东西都很散，我也不好整理一些教程，所以还请大家自行百度怎么配置，如果有不会的地方，可以在网站的右边聊天室里联系我，或者点击QQ图标联系我，我看见了就会回的，最后配置全部弄好的小伙伴，我推荐使用Hexo Admin来写博客，这个比直接命令写方便一点，如果你们有更好的方法，还请你们教我一下，哈哈。po一下Hexo Admin：<img src="http://47.99.106.190:8080/image/4.png" alt=""><br><strong>以上，拜拜！</strong></p>
+]]></content>
       <categories>
-          
-          <category> 技术 </category>
-          
+        <category>技术</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 技术 </tag>
-            
-            <tag> 心得 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>技术</tag>
+        <tag>心得</tag>
+      </tags>
+  </entry>
 </search>
