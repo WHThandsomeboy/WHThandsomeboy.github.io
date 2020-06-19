@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="JavaBean中Scope的属性, WHT&#39;s blog">
-    <meta name="description" content="前言 昨天在做作业jsp7-4的时候，遇到了一点问题，代码不难，几乎都是一遍写下来了，但是  哎？按照正常操作不是应该输出爱好为：唱，跳，rap，篮球嘛，为什么只能输出一个唱呢？难道cxk真的就爱唱嘛？（手动滑稽）。我陷入了沉思，反复检查代">
+    <meta name="keywords" content="JSP课程结束总结, WHT&#39;s blog">
+    <meta name="description" content="序言&amp;nbsp;&amp;nbsp;好久没写过博客了，上次写博客应该还是在三月底吧，主要自己太懒了，抽自己十巴掌，二来感觉也没啥内容好写的，趁着JSP课程结束，写一篇博客记录总结一下。
+改变&amp;nbsp;&amp;nbsp;了解我的人应该都知道我不是一个读书">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -12,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>JavaBean中Scope的属性 | WHT&#39;s blog</title>
+    <title>JSP课程结束总结 | WHT&#39;s blog</title>
     <link rel="icon" type="image/png" href="/1.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -280,12 +281,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">JavaBean中Scope的属性</h1>
+                    <h1 class="description center-align post-title">JSP课程结束总结</h1>
                 </div>
             </div>
         </div>
@@ -402,8 +403,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E6%8A%80%E6%9C%AF/">
-                                <span class="chip bg-color">技术</span>
+                            <a href="/tags/%E5%BF%83%E5%BE%97/">
+                                <span class="chip bg-color">心得</span>
                             </a>
                         
                     </div>
@@ -414,8 +415,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
-                                技术
+                            <a href="/categories/%E5%BF%83%E5%BE%97/" class="post-category">
+                                心得
                             </a>
                         
                     </div>
@@ -427,7 +428,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-03-25
+                    2020-06-19
                 </div>
                 
 
@@ -436,7 +437,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    950
+                    1k
                 </div>
                 
 
@@ -449,30 +450,11 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p> 昨天在做作业jsp7-4的时候，遇到了一点问题，代码不难，几乎都是一遍写下来了，但是<br> <img src="http://47.99.106.190:8080/image/jsp7-1.png" alt=""><br> <img src="http://47.99.106.190:8080/image/jsp7-2.png" alt=""><br>哎？按照正常操作不是应该输出爱好为：唱，跳，rap，篮球嘛，为什么只能输出一个唱呢？难道cxk真的就爱唱嘛？（手动滑稽）。我陷入了沉思，反复检查代码，本来半个小时就写完的作业，硬是拖到了一个多小时，但是还是没发现哪里错了，我放弃了检查代码，尝试检测session中到底有没有保存这个对象，结果显示session保存了user对象。<br><img src="http://47.99.106.190:8080/image/jsp7-3.png" alt=""><br><img src="http://47.99.106.190:8080/image/jsp7-4.png" alt=""><br>那么错误就显而易见了，JavaBean中scope的问题，因为很少用getProperty输出，所以对scope的属性了解不多，这里我没有更改scope属性，默认就是page，结果show.jsp页面就读取不到session中的对象了，只能读取login.jsp页面提交的内容，这才有了爱好只有唱。所以只需要把scope的属性改为session，让JavaBean能读取到session就行了。<br><img src="http://47.99.106.190:8080/image/jsp7-5.png" alt=""></p>
-<h3 id="JavaBean的Scope属性"><a href="#JavaBean的Scope属性" class="headerlink" title="JavaBean的Scope属性"></a>JavaBean的Scope属性</h3><p>我们不妨做个实验：写一个求和的JavaBean</p>
-<pre><code>package com.wht;
-public class sum {
-    int i=0;
-    public int getI() {
-        i++;
-        return i;
-    }
-}</code></pre><p>然后写一个jsp页面显示求和的值</p>
-<pre><code>&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=utf-8&quot;
-    pageEncoding=&quot;utf-8&quot;%&gt;
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;title&gt;Insert title here&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;jsp:useBean id=&quot;sum&quot; class=&quot;com.wht.sum&quot; scope=&quot;page/request/session/application&quot;&gt;&lt;/jsp:useBean&gt;
-    &lt;jsp:getProperty property=&quot;i&quot; name=&quot;sum&quot;/&gt;
-&lt;/body&gt;
-&lt;/html&gt;</code></pre><p>scope我们分别取page、request、session、application测试。<br><strong>1、</strong>使用page和request时，无论怎么刷新页面sum的值都为1，也就是JavaBean被执行了一次后，page和request就失效了。<br><strong>2、</strong>使用session时，在不关闭浏览器页面的情况下，一直刷新，sum的值就一直递增，但是如果新开一个浏览器页面，那么sum的值又会回到1。<br><strong>3、</strong>使用application时，在不关闭浏览器页面的情况下，一直刷新，sum的值就一直递增，但是不同与session的时，就算你关闭了浏览器，但是再次打开的时候，你会发现sum的值没有回到1，而是在之前的基础上继续递增。<br><strong>总结：从实验上可以看出作用域application&gt;session&gt;request&gt;page。</strong></p>
-<h3 id="javaBean的4种scope属性总结"><a href="#javaBean的4种scope属性总结" class="headerlink" title="javaBean的4种scope属性总结"></a>javaBean的4种scope属性总结</h3><p><strong>javaBean的page作用域：</strong><br>默认的scope值，作用域范围最小，创立的对象只能在当前的jsp程序中使用，客户端请求执行完后，javaBean对象会立即注销。<br><strong>javaBean的request作用域：</strong><br>使用<code>&lt;jsp:forwoard&gt;</code>重定向货用<code>&lt;jsp:include&gt;</code>动作导入jsp程序时，定义的对象会被传到下一个程序中，下一个程序可以任意调用此对象的内容。<br><strong>JavaBean的session作用域:</strong><br>session （有效期限是用户会话期间，也就是session的生命周期结束后才结束，不同用户的session间不会相互影响）表示将JavaBean实例对象存储在HttpSession对象中，存储在HttpSession对象中的JavaBean对象可以被属于同一个会话的所有Servlet和JSP页面访问，此设置要求当前JSP页面支持Session，即没有将page指令的session属性设置为false。也就是对一个特定用户有效，一个http会话。<br><strong>JavaBean的application作用域：</strong><br>application（有效期限是最长的，服务器关闭有限期限才结束，可以在不同用户间共享）表示将JavaBean实例对象存储在ServletContext对象中，存储在ServletContext对象中的JavaBean对象可以被同一个Web应用程序中的所有Servlet和JSP页面访问。也就是所有用户都可以使用。</p>
+                <h3 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h3><p>&nbsp;&nbsp;好久没写过博客了，上次写博客应该还是在三月底吧，主要自己太懒了，抽自己十巴掌，二来感觉也没啥内容好写的，趁着JSP课程结束，写一篇博客记录总结一下。</p>
+<h3 id="改变"><a href="#改变" class="headerlink" title="改变"></a>改变</h3><p>&nbsp;&nbsp;了解我的人应该都知道我不是一个读书人，如果说我有什么优点，应该就是所有游戏都强了吧，嘿嘿，好像就小学有认真学习过，羞愧啊，初中浑浑噩噩进了重点高中，高中又浑浑噩噩的考了一本，一切都像是运气使然，直到上了大学，运气好像不是很管用了，大一一年裸考了俩次四级都没过，第一次424没过，或许这就是运气用完了吧。大二上第一次在图书馆写英语卷子，已经一年多没学英语的我，写起来还是很吃力的，但是幸运的是，大二上四级过了，也算是写了那么多卷子的回报吧。同年，我哥从小企业面试进入杭州某国企，起步月薪20k+，我姐大四也在准备考研，并且已经收到合肥某私立初中的offer，包吃包住、五险一金，月薪5k，我想一个女生这样水平，已经算不错了吧。我承认我羡慕他们了。不是因为他们的薪资，而是他们都在努力考研，努力工作，我觉得这才年轻人该干的吧，想了很久，卸载了所有游戏……努力学习，努力打代码，当你认真开始学习后，你才发现，时间真的不够用，寒假的时候，随便改改bug，完善项目，随随便便就能熬到凌晨，就连搭这个博客，也花了我一整天的时间。我深知自己是个菜鸟，只能花更多的时间去看视频，阅读Blog，阅读文献。JSP课程应该就是起点了。</p>
+<h3 id="2020-01-15-2020-06-18"><a href="#2020-01-15-2020-06-18" class="headerlink" title="2020.01.15 - 2020.06.18"></a>2020.01.15 - 2020.06.18</h3><p>&nbsp;&nbsp;整整五个月，JSP“折磨”了我五个月，大学生应该有一个美好的寒假，而我们的寒假只有无休无止的作业(以下为一部分)。<br><img src="http://47.99.106.190:8080/image/kecheng1.png" alt=""><br><img src="http://47.99.106.190:8080/image/kecheng2.png" alt=""><br>&nbsp;&nbsp;一边写着这么多作业，一边还重新学习JAVA，一边还要兼顾其他课程，那段时间真是心身交瘁，不过戒了游戏，确实腾出不少时间学习，煎熬是肯定的，收获也是肯定的。</p>
+<h3 id="PetStore项目"><a href="#PetStore项目" class="headerlink" title="PetStore项目"></a>PetStore项目</h3><p><img src="http://47.99.106.190:8080/image/kecheng3.png" alt=""><br><a href="http://47.99.106.190:8080/PetStore/index" target="_blank" rel="noopener">查看详情点击我</a> &nbsp;&nbsp;账户: <a href="mailto:Jefferson@163.com">Jefferson@163.com</a>  密码:123<br>这是课程做的最后一个项目，也是最复杂，最大的一个项目，前前后后写了一个月,写了大部分的购物功能。应该算是个人完成的小商城吧。虽然随着时代的进步，JSP这种前后端耦合的技术肯定要被淘汰的，毕竟程序员当爹又当妈，而且动态资源和静态资源全部耦合在一起，无法做到真正的动静分离，服务器也压力大。但是我们学习的目的，我认为主要是学习MVC模式，不管是PHP还是以后学的Spring框架以及各种Web框架都有MVC的思想，JSP作为入门技术，也是值得学习的，PetStore就是一个典型的MVC模式的项目。</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>&nbsp;&nbsp;回顾这五个月，站在我现在的角度来看，我还是想再经历一遍，第一次通过打代码获得这么多成就感，现在也能在代码上指导不少同学，学习新框架也是游刃有余，我觉得五个月的付出还是很值得的。<br>&nbsp;&nbsp;最后，我们才大二下，下学期才大三，我们的大学还有俩年，其实对于很多人来说，就算已经玩了俩年，现在迷途知返，还是有机会补救的，就怕浑浑噩噩，还不了解就业趋势，糊涂的混了大学四年，可能以后找对口工作会有一点难度吧。也祝愿自己考研顺利，工作顺利，前程似锦！</p>
 
             </div>
             <hr/>
@@ -498,7 +480,7 @@ public class sum {
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://yoursite.com/2020/03/25/javabean-zhong-scope-de-shu-xing/">http://yoursite.com/2020/03/25/javabean-zhong-scope-de-shu-xing/</a>
+                    <a href="http://yoursite.com/2020/06/19/jsp-ke-cheng-jie-shu-zong-jie/">http://yoursite.com/2020/06/19/jsp-ke-cheng-jie-shu-zong-jie/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -536,8 +518,8 @@ public class sum {
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E6%8A%80%E6%9C%AF/">
-                                    <span class="chip bg-color">技术</span>
+                                <a href="/tags/%E5%BF%83%E5%BE%97/">
+                                    <span class="chip bg-color">心得</span>
                                 </a>
                             
                         </div>
@@ -703,9 +685,10 @@ public class sum {
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2020/06/19/jsp-ke-cheng-jie-shu-zong-jie/">
                     <div class="card-image">
@@ -724,9 +707,9 @@ public class sum {
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-19
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-19
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -739,6 +722,7 @@ public class sum {
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -757,24 +741,24 @@ public class sum {
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/03/14/zhen-liang-yi-yuan-jiu-neng-mai-yu-ming/">
+                <a href="/2020/03/25/javabean-zhong-scope-de-shu-xing/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="震惊！一元就能买域名？">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="JavaBean中Scope的属性">
                         
-                        <span class="card-title">震惊！一元就能买域名？</span>
+                        <span class="card-title">JavaBean中Scope的属性</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            写在前面自从前几天搭好了个人blog，一直想买个域名，毕竟GitHub的域名又臭又长，奈何家境贫寒，拿胡大小的话来说，买域名的钱多买几顿夜宵不香嘛，我想想也是，反正GitHub的域名也不是不能用，但是不巧，今天逛知乎的时候，看见了腾讯云的广
+                            前言 昨天在做作业jsp7-4的时候，遇到了一点问题，代码不难，几乎都是一遍写下来了，但是  哎？按照正常操作不是应该输出爱好为：唱，跳，rap，篮球嘛，为什么只能输出一个唱呢？难道cxk真的就爱唱嘛？（手动滑稽）。我陷入了沉思，反复检查代
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-14
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-25
                             </span>
                         <span class="publish-author">
                             
