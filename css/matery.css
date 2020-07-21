@@ -119,7 +119,6 @@ pre {
     border-radius: 0.35rem;
     tab-size: 4;
 }
-
 .code-area::after {
     content: " ";
     position: absolute;

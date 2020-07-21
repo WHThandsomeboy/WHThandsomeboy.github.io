@@ -449,7 +449,7 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p> 昨天在做作业jsp7-4的时候，遇到了一点问题，代码不难，几乎都是一遍写下来了，但是<br> <img src="http://47.99.106.190:8080/image/jsp7-1.png" alt=""><br> <img src="http://47.99.106.190:8080/image/jsp7-2.png" alt=""><br>哎？按照正常操作不是应该输出爱好为：唱，跳，rap，篮球嘛，为什么只能输出一个唱呢？难道cxk真的就爱唱嘛？（手动滑稽）。我陷入了沉思，反复检查代码，本来半个小时就写完的作业，硬是拖到了一个多小时，但是还是没发现哪里错了，我放弃了检查代码，尝试检测session中到底有没有保存这个对象，结果显示session保存了user对象。<br><img src="http://47.99.106.190:8080/image/jsp7-3.png" alt=""><br><img src="http://47.99.106.190:8080/image/jsp7-4.png" alt=""><br>那么错误就显而易见了，JavaBean中scope的问题，因为很少用getProperty输出，所以对scope的属性了解不多，这里我没有更改scope属性，默认就是page，结果show.jsp页面就读取不到session中的对象了，只能读取login.jsp页面提交的内容，这才有了爱好只有唱。所以只需要把scope的属性改为session，让JavaBean能读取到session就行了。<br><img src="http://47.99.106.190:8080/image/jsp7-5.png" alt=""></p>
+                <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p> 昨天在做作业jsp7-4的时候，遇到了一点问题，代码不难，几乎都是一遍写下来了，但是<br> <img src="https://s1.ax1x.com/2020/07/21/UoBO9U.png" alt=""><br> <img src="https://s1.ax1x.com/2020/07/21/UoBX3F.png" alt=""><br>哎？按照正常操作不是应该输出爱好为：唱，跳，rap，篮球嘛，为什么只能输出一个唱呢？难道cxk真的就爱唱嘛？（手动滑稽）。我陷入了沉思，反复检查代码，本来半个小时就写完的作业，硬是拖到了一个多小时，但是还是没发现哪里错了，我放弃了检查代码，尝试检测session中到底有没有保存这个对象，结果显示session保存了user对象。<br><img src="https://s1.ax1x.com/2020/07/21/UoBjc4.png" alt=""><br><img src="https://s1.ax1x.com/2020/07/21/UoBzu9.png" alt=""><br>那么错误就显而易见了，JavaBean中scope的问题，因为很少用getProperty输出，所以对scope的属性了解不多，这里我没有更改scope属性，默认就是page，结果show.jsp页面就读取不到session中的对象了，只能读取login.jsp页面提交的内容，这才有了爱好只有唱。所以只需要把scope的属性改为session，让JavaBean能读取到session就行了。<br><img src="https://s1.ax1x.com/2020/07/21/UoDSBR.png" alt=""></p>
 <h3 id="JavaBean的Scope属性"><a href="#JavaBean的Scope属性" class="headerlink" title="JavaBean的Scope属性"></a>JavaBean的Scope属性</h3><p>我们不妨做个实验：写一个求和的JavaBean</p>
 <pre><code>package com.wht;
 public class sum {
@@ -988,13 +988,13 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             
             <span id="busuanzi_container_site_pv">
                 |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span
-                    class="white-color">846</span>&nbsp;次
+                    class="white-color">4464</span>&nbsp;次
             </span>
             
             
             <span id="busuanzi_container_site_uv">
                 |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span
-                    class="white-color">265</span>&nbsp;人
+                    class="white-color">1265</span>&nbsp;人
             </span>
             
             <br>
@@ -1009,8 +1009,8 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
                     var years = days * 365;
                     var today = new Date();
                     var startYear = "2020";
-                    var startMonth = "2";
-                    var startDate = "28";
+                    var startMonth = "3";
+                    var startDate = "12";
                     var startHour = "0";
                     var startMinute = "0";
                     var startSecond = "0";
